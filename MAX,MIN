@@ -1,0 +1,23 @@
+
+n=int(input("Enter No. Inputes "))
+arr=[];
+for i in range(n):
+  no=int(input("Enter no "))
+  arr.append(no);
+print("Given inpute list",arr)
+
+#Maximum value
+a=arr[0];
+for i in arr:
+  if a<i:
+    a=i;
+print("Maximum value in list",a);
+
+#Minimum Value
+a=arr[0];
+for i in arr:
+  if a>i:
+    a=i;
+print("Minimum value in list",a);
+
+
